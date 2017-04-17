@@ -1,0 +1,6 @@
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/bin/Debug/netstandard1.4/BuckeyeStore.Core.deps.json
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/bin/Debug/netstandard1.4/BuckeyeStore.Core.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/bin/Debug/netstandard1.4/BuckeyeStore.Core.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/obj/Debug/netstandard1.4/BuckeyeStore.Core.AssemblyInfo.cs
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/obj/Debug/netstandard1.4/BuckeyeStore.Core.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/obj/Debug/netstandard1.4/BuckeyeStore.Core.pdb
