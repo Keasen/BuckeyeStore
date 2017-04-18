@@ -9,3 +9,5 @@
 /Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Core.Tests/obj/Debug/netcoreapp1.1/BuckeyeStore.Core.Tests.AssemblyInfo.cs
 /Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Core.Tests/obj/Debug/netcoreapp1.1/BuckeyeStore.Core.Tests.dll
 /Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Core.Tests/obj/Debug/netcoreapp1.1/BuckeyeStore.Core.Tests.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Core.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Core.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Core.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Core.pdb

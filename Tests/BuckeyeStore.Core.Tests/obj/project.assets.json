@@ -2917,6 +2917,19 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "BuckeyeStore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/BuckeyeStore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/BuckeyeStore.Core.dll": {}
+        }
       }
     }
   },
@@ -8547,10 +8560,16 @@
         "xunit.runner.visualstudio.2.2.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "BuckeyeStore.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj",
+      "msbuildProject": "../../Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "BuckeyeStore.Core >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
       "Microsoft.NETCore.App >= 1.1.1",
       "xunit >= 2.2.0",
@@ -8576,7 +8595,11 @@
       },
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj": {
+              "projectPath": "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj"
+            }
+          }
         }
       }
     },

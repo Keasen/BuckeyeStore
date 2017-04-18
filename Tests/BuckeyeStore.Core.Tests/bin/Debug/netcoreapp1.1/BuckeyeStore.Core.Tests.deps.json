@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v1.1": {
       "buckeyestore.core.tests/1.0.0": {
         "dependencies": {
+          "BuckeyeStore.Core": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.0.0",
           "xunit": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
@@ -398,6 +399,11 @@
           "Microsoft.Extensions.DependencyModel": "1.1.0",
           "Microsoft.TestPlatform.ObjectModel": "15.0.0"
         }
+      },
+      "buckeyestore.core/1.0.0": {
+        "runtime": {
+          "BuckeyeStore.Core.dll": {}
+        }
       }
     }
   },
@@ -581,6 +587,11 @@
       "sha512": "sha512-CZimTpet23CeI2oXjDtICecAuEJ8Z4xSwNFY2tTKcGfm4IzKBrFmS3yzdqMMdAfiHYUgKlcyefflLOyO9ArKyQ==",
       "path": "xunit.runner.visualstudio/2.2.0",
       "hashPath": "xunit.runner.visualstudio.2.2.0.nupkg.sha512"
+    },
+    "buckeyestore.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
