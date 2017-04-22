@@ -1,0 +1,15 @@
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/xunit.runner.utility.netstandard15.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/xunit.runner.reporters.netstandard15.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.deps.json
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.runtimeconfig.json
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.runtimeconfig.dev.json
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Core.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/bin/Debug/netcoreapp1.1/BuckeyeStore.Core.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/obj/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.AssemblyInfo.cs
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/obj/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Tests/BuckeyeStore.Api.Tests/obj/Debug/netcoreapp1.1/BuckeyeStore.Api.Tests.pdb
