@@ -4087,6 +4087,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
+          "BuckeyeStore.Core": "1.0.0",
           "Microsoft.AspNetCore": "1.1.1",
           "Microsoft.AspNetCore.Mvc": "1.1.2",
           "Microsoft.EntityFrameworkCore": "1.1.1",
@@ -4098,6 +4099,19 @@
         },
         "runtime": {
           "bin/placeholder/netcoreapp1.1/BuckeyeStore.Api.dll": {}
+        }
+      },
+      "BuckeyeStore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/BuckeyeStore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/BuckeyeStore.Core.dll": {}
         }
       }
     }
@@ -10744,11 +10758,17 @@
       "type": "project",
       "path": "../../Source/BuckeyeStore.Api/BuckeyeStore.Api.csproj",
       "msbuildProject": "../../Source/BuckeyeStore.Api/BuckeyeStore.Api.csproj"
+    },
+    "BuckeyeStore.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj",
+      "msbuildProject": "../../Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "BuckeyeStore.Api >= 1.0.0",
+      "BuckeyeStore.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 1.1.1",
       "Microsoft.Extensions.DependencyInjection >= 1.1.0",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
@@ -10779,6 +10799,9 @@
           "projectReferences": {
             "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/BuckeyeStore.Api.csproj": {
               "projectPath": "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/BuckeyeStore.Api.csproj"
+            },
+            "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj": {
+              "projectPath": "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj"
             }
           }
         }
