@@ -3585,6 +3585,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "BuckeyeStore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/BuckeyeStore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/BuckeyeStore.Core.dll": {}
+        }
       }
     }
   },
@@ -9678,10 +9691,16 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "BuckeyeStore.Core/1.0.0": {
+      "type": "project",
+      "path": "../BuckeyeStore.Core/BuckeyeStore.Core.csproj",
+      "msbuildProject": "../BuckeyeStore.Core/BuckeyeStore.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "BuckeyeStore.Core >= 1.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
       "Microsoft.EntityFrameworkCore >= 1.1.1",
@@ -9708,7 +9727,11 @@
       },
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj": {
+              "projectPath": "/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Core/BuckeyeStore.Core.csproj"
+            }
+          }
         }
       }
     },

@@ -20,8 +20,7 @@ namespace BuckeyeStore.Api.Tests
 
         private void InitializeContext()
         {
-            var builder = new DbContextOptionsBuilder<BuckeyeStoreContext>()
-                .UseInMemoryDatabase();
+            var builder = new DbContextOptionsBuilder<BuckeyeStoreContext>();
 
             var context = new BuckeyeStoreContext(builder.Options);
             var products = Enumerable.Range(1, 10)
