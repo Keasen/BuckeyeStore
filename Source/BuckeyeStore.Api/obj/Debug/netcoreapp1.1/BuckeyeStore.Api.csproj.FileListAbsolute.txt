@@ -2,3 +2,9 @@
 /Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.runtimeconfig.json
 /Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.runtimeconfig.dev.json
 /Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/obj/Debug/netcoreapp1.1/BuckeyeStore.Api.AssemblyInfo.cs
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/bin/Debug/netcoreapp1.1/BuckeyeStore.Api.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/bin/Debug/netcoreapp1.1/BuckeyeStore.Core.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/bin/Debug/netcoreapp1.1/BuckeyeStore.Core.pdb
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/obj/Debug/netcoreapp1.1/BuckeyeStore.Api.dll
+/Users/xudonghao/Desktop/2017SP/ACTMIS3610/LAB/BuckeyeStore/Source/BuckeyeStore.Api/obj/Debug/netcoreapp1.1/BuckeyeStore.Api.pdb

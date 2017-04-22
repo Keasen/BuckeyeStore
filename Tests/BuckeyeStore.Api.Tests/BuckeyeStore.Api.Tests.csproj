@@ -11,5 +11,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Source\BuckeyeStore.Api\BuckeyeStore.Api.csproj" />
+    <ProjectReference Include="..\..\Source\BuckeyeStore.Core\BuckeyeStore.Core.csproj" />
   </ItemGroup>
 </Project>

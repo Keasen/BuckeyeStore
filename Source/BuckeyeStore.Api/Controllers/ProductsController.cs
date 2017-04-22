@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BuckeyeStore.Core;
 using BuckeyeStore.Api.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace BuckeyeStore.Api.Controllers
 {
