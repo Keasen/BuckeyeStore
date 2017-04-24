@@ -9,5 +9,6 @@ namespace BuckeyeStore.Api.Data
         public BuckeyeStoreContext(DbContextOptions<BuckeyeStoreContext> options)
             : base(options) { }
         public DbSet<Product> Products {get; set; }
+        
     }
 }

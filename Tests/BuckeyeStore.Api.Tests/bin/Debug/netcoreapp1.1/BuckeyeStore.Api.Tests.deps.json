@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "4388513c5755c4f88c317ba226aae2eb13a188c6"
+    "signature": "236389e001b52940db28281f16e3c170f94b0101"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,8 +9,8 @@
       "buckeyestore.api.tests/1.0.0": {
         "dependencies": {
           "BuckeyeStore.Api": "1.0.0",
-          "BuckeyeStore.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "1.1.1",
+          "Microsoft.EntityFrameworkCore.InMemory": "1.1.1",
           "Microsoft.Extensions.DependencyInjection": "1.1.0",
           "Microsoft.NET.Test.Sdk": "15.0.0",
           "xunit": "2.2.0",
@@ -457,6 +457,14 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.dll": {}
+        }
+      },
+      "microsoft.entityframeworkcore.inmemory/1.1.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
       "microsoft.extensions.caching.abstractions/1.1.1": {
@@ -1413,6 +1421,13 @@
       "sha512": "sha512-lmzc4lWAfy2yOCsX+sXg7EtQwWcX/F7xgqkUSRMfRfK5gHnvXYjW+2cdQps04qTtLs1w+4q4V7+ONyFpBQ2pXw==",
       "path": "microsoft.entityframeworkcore/1.1.1",
       "hashPath": "microsoft.entityframeworkcore.1.1.1.nupkg.sha512"
+    },
+    "microsoft.entityframeworkcore.inmemory/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4PLbgae2PgU8ZCDTjoYK09jKxCWJmWArveEQNxsZMwhLcAtVQYZAot7mDovD6qM7O788CrpDx6QaeYKpd/Zbnw==",
+      "path": "microsoft.entityframeworkcore.inmemory/1.1.1",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.1.1.1.nupkg.sha512"
     },
     "microsoft.extensions.caching.abstractions/1.1.1": {
       "type": "package",

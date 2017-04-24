@@ -6,36 +6,39 @@ using Microsoft.AspNetCore.Mvc;
 using BuckeyeStore.Core;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace BuckeyeStore.Api.Tests
 {
-    public class ProductsControllerTests
+    public class ProductsControllerTests : IClassFixture<ContextFixture>
     {
-        private BuckeyeStoreContext db;
 
-        public ProductsControllerTests()
+        private ContextFixture fixture;
+
+        public ProductsControllerTests(ContextFixture contextFixture)
         {
-            InitializeContext();
-        }
-
-        private void InitializeContext()
-        {
-            var builder = new DbContextOptionsBuilder<BuckeyeStoreContext>();
-
-            var context = new BuckeyeStoreContext(builder.Options);
-            var products = Enumerable.Range(1, 10)
-                .Select(i => new Product { Id = i, Name = $"T-Shirt{i}", Brand = "Nike" });
-            context.Products.AddRange(products);
-            int changed = context.SaveChanges();
-            db = context;
+            fixture = contextFixture;
         }
 
         [Fact]
         public void CanGetAllProducts()
         {
-            var controller = new ProductsController(db);
-            var result = controller.Get();
-            Assert.NotNull(result);
+            var controller = new ProductsController(fixture.Db);
+
+            var result = controller.Get() as OkObjectResult;
+
+            Assert.IsType<OkObjectResult>(result);
+
+        }
+
+        [Fact]
+        public void CanGetProduct()
+        {
+            var controller = new ProductsController(fixture.Db);
+
+            var result = controller.Get(1);
+
+            Assert.IsType<OkObjectResult>(result);
 
         }
     }

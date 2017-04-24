@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BuckeyeStore.Core;
 using BuckeyeStore.Api.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace BuckeyeStore.Api.Controllers
 {
@@ -18,33 +17,33 @@ namespace BuckeyeStore.Api.Controllers
         {
             this.db = context;
         }
-        
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            throw new NotImplementedException();
+            return Ok(db.Products);
         }
 
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            throw new NotImplementedException();
+            return Ok(db.Products.Find(id));
         }
 
         [HttpPost]
-        public void Post([FromBody]Product product)
+        public IActionResult Post([FromBody]Product product)
         {
             throw new NotImplementedException();
         }
 
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]Product product)
+        public IActionResult Put(int id, [FromBody]Product product)
         {
             throw new NotImplementedException();
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
             throw new NotImplementedException();
         }
